@@ -1,14 +1,8 @@
 name: 刷步数
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
-    - cron: '6 7 * * *'
-  watch:
-    types: started
+    - cron: '12 9 * * *'
 
 jobs:
   build:
